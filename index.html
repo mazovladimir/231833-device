@@ -5,14 +5,14 @@
     <title>HTML Academy: DEVICE</title>
   </head>
   <body>
-    <header class="main-header">
-      <div class="header-picture">
-        <img src="http://placehold.it/150x100" width="150" height="100" alt="header-logo">
-      </div>
-      <div class="name">
-        <p>DEVICE</p>
-      </div>
-      <div class="container">
+    <header class="header">
+      <div class="header-container">
+        <div class="name">
+          <h1>DEVICE</h1>
+        </div>
+        <div class="search">
+          <span class="find">Поиск по сайту</span>
+        </div>
         <nav class="main-navigation">
           <ul>
             <li>
@@ -54,48 +54,90 @@
           <p>Самая длинная палка для селфи доступна в нашем магазине. Восемь(Восемь, Карл!) метров длиной и весом всего 5 килограмм.</p>
           <a href="#">ПОДРОБНЕЕ</a>
           <ul>
-            <li><p>8,5 м <br>Длина палки</p></li>
-            <li><p>5 кг <br>Вес палки</p></li>
-            <li><p>Карбон <br>Материал</p></li>
+            <li><span class='up'>8,5 м </span> <span class="down">Длина палки</span></li>
+            <li><span class='up'>5 кг</span> <span class="down">Вес палки</span></li>
+            <li><span class='up'>Карбон</span> <span class="down">Материал</span></li>
           </ul>
         </section>
       </div>
       <div class="section-two">
-        <ul>
-          <li><img src="http://placehold.it/150x100" width="150" height="100" alt="logo1"><br> Виртуальная реальность</li>
-          <li><img src="http://placehold.it/150x100" width="150" height="100" alt="logo2"><br> Моноподы для селфи</li>
-          <li><img src="http://placehold.it/150x100" width="150" height="100" alt="logo3"><br> Экшн-камеры</li>
-          <li><img src="http://placehold.it/150x100" width="150" height="100" alt="logo4"><br> Фитнес браслеты</li>
-          <li><img src="http://placehold.it/150x100" width="150" height="100" alt="logo5"><br> Умные часы</li>
-          <li><img src="http://placehold.it/150x100" width="150" height="100" alt="logo6"><br> Квадрокоптеры</li>
-        </ul>
-      </div>
-      <div class="section-three">
-        <div class="delivery">
-          <ul>
-            <li><a href="#">ДОСТАВКА</a></li>
-            <li><a href="#">ГАРАНТИЯ</a></li>
-            <li><a href="#">КРЕДИТ</a></li>
-          </ul>
-          <section>
-            <h2>Доставка</h2>
-            <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.
-            <img src="http://placehold.it/150x100" width="150" height="100" alt="delivery-man"></p>
-          </section>
+        <div class="pic1">
+          <figure>
+            <img src="http://placehold.it/150x100" width="150" height="100" alt="logo1">
+          </figure>
+          <p class="pic1-name">Виртуальная реальность</p>
+        </div>
+        <div class="pic2">
+          <figure>
+            <img src="http://placehold.it/150x100" width="150" height="100" alt="logo2">
+          </figure>
+          <p class="pic2-name">Моноподы для селфи</p>
+        </div>
+        <div class="pic3">
+          <figure>
+            <img src="http://placehold.it/150x100" width="150" height="100" alt="logo3">
+          </figure>
+          <p class="pic3-name">Экшн-камеры</p>
+        </div>
+        <div class="pic4">
+          <figure>
+            <img src="http://placehold.it/150x100" width="150" height="100" alt="logo4">
+          </figure>
+          <p class="pic4-name">Фитнес браслеты</p>
+        </div>
+        <div class="pic5">
+          <figure>
+            <img src="http://placehold.it/150x100" width="150" height="100" alt="logo5">
+          </figure>
+          <p class="pic5-name">Умные часы</p>
+        </div>
+        <div class="pic6">
+          <figure>
+            <img src="http://placehold.it/150x100" width="150" height="100" alt="logo6">
+          </figure>
+          <p class="pic6-name">Квадрокоптеры</p>
         </div>
       </div>
+      <div class="section-three">
+        <ul>
+          <li><a href="#">ДОСТАВКА</a></li>
+          <li><a href="#">ГАРАНТИЯ</a></li>
+          <li><a href="#">КРЕДИТ</a></li>
+        </ul>
+        <section class="delivery">
+          <h2>Доставка</h2>
+          <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
+          <img src="http://placehold.it/150x100" width="150" height="100" alt="delivery-man">
+        </section>
+      </div>
       <div class="section-four">
-        <div class="pictures">    
-          <img src="http://placehold.it/150x100" width="150" height="100" alt="pic1">
-          <img src="http://placehold.it/150x100" width="150" height="100" alt="pic2">
-          <img src="http://placehold.it/150x100" width="150" height="100" alt="pic3">
-          <img src="http://placehold.it/150x100" width="150" height="100" alt="pic4">
+        <div class="logos">
+          <div class="logo1">
+            <figure>
+              <img src="http://placehold.it/150x100" width="150" height="100" alt="pic1">
+            </figure>
+          </div>
+          <div class="logo2">
+            <figure>
+              <img src="http://placehold.it/150x100" width="150" height="100" alt="pic2">
+            </figure>
+          </div>
+          <div class="logo3">
+            <figure>
+              <img src="http://placehold.it/150x100" width="150" height="100" alt="pic3">
+            </figure>
+          </div>
+          <div class="logo4">
+            <figure>
+              <img src="http://placehold.it/150x100" width="150" height="100" alt="pic4">
+            </figure>
+          </div>
         </div>
       </div>
       <div class="section-five">
         <div class="about-us">
           <div class="container-left">
-            <div class="about-descruption">
+            <div class="about-description">
               <section>
                 <h3>О нас</h3>
                 <p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
@@ -123,29 +165,37 @@
     <footer>
       <div class="main-footer">
         <div class="footer-container">
-          <div class="footer-contacts">
-            <p>
-              <b>DEVICE</b><br>
-              г. Москва, ул. Строителей, 15
-            </p>
+          <div class="footer-first">
+            <b>DEVICE</b><br>
+            <p class="address">г. Москва, ул. Строителей, 15</p>
           </div>
-          <div class="footer-social">
-            <ul>
-              <li><a href="#">ДОСТАВКА</a></li>
-              <li><a href="#">ГАРАНТИЯ</a></li>
-              <li><a href="#">КОНТАКТЫ></a></li>
-            </ul>
-            <a href="#"><img src="http://placehold.it/150x100" width="150" height="100" alt="facebook"></a>
-            <a href="#"><img src="http://placehold.it/150x100" width="150" height="100" alt="instagram"></a>
-            <a href="#"><img src="http://placehold.it/150x100" width="150" height="100" alt="twitter"></a>
+          <div class="footer-second">
+            <div class="footer-garanty">
+              <ul>
+                <li><a href="#">ДОСТАВКА</a></li>
+                <li><a href="#">ГАРАНТИЯ</a></li>
+                <li><a href="#">КОНТАКТЫ></a></li>
+              </ul>
+            </div>
+              <div class="footer-social">
+                <ul>
+                <li><a href="#"><span class="facebook">facebook</span></a></li>
+                <li><a href="#"><span class="facebook">instagram</span></a></li>
+                <li><a href="#"><span class="facebook">twitter</span></a></li>
+                  </ul>
+            </div>
           </div>
-          <div class="phone">
-            <ul>
-              <li><a href="#">Войти</a></li>
-              <li><a href="#">Сравнить</a></li>
-              <li><a href="#">Корзина</a></li>        
-            </ul>
-            <p>тел. +7(495)495-95-95</p>
+          <div class="footer-third">
+            <div class="login">
+              <ul>
+                <li><a href="#">Войти</a></li>
+                <li><a href="#">Сравнить</a></li>
+                <li><a href="#">Корзина</a></li>        
+              </ul>
+            </div>
+            <div class="phone">
+              <p>тел.<a href="tel:84954959595">+7(495)495-95-95</a></p>
+            </div>
           </div>
         </div>
       </div>
