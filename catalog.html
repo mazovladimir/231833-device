@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: DEVICE</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="header-picture">
+        <img src="http://placehold.it/150x100" width="150" height="100" alt="header-logo">
+      </div>
+      <div class="name">
+        <a class="main-logo">DEVICE</a>
+      </div>
+      <div class="container">
+        <nav class="main-navigation">
+          <ul>
+            <li>
+              <a href="#">ВОЙТИ</a>
+            </li>
+            <li>
+              <a href="#">СРАВНИТЬ</a>
+            </li>
+            <li>
+              <a href="#">КОРЗИНА</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="second-navigation">
+          <ul>
+            <li>
+              <a href="#">КАТАЛОГ ТОВАРОВ</a>
+            </li>
+            <li>
+              <a href="#">ДОСТАВКА</a>
+            </li>
+            <li>
+              <a href="#">ГАРАНТИЯ</a>
+            </li>
+            <li>
+              <a href="#">КОНТАКТЫ</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="container">
+      <h1>Моноподы для селфи</h1>
+      <div class="navigation">
+        <ul>
+          <li><a href="#">Главная</a></li>
+          <li><a href="#">Каталог</a></li>
+          <li><a href="#">Моноподы для селфи</a></li>
+        </ul>
+      </div>
+      
+      <div class="section-left">
+        <div class="filter-name">
+           <h4>Фильтр:</h4>
+        </div>
+        <div class="filter-navigation">
+          <form>
+            <fieldset class="price">
+              <legend>Стоимость</legend> 
+              <input type="range" min="0" max="10000" step="1" value="5000">               
+            </fieldset>
+            <fieldset class="color">
+              <legend>Цвет</legend>
+              <input type="checkbox" name="color" id="black" checked>
+              <label for="black">Черный</label>
+              <input type="checkbox" name="color" id="white">
+              <label for="white">Белый</label>
+              <input type="checkbox" name="color" id="blue" checked>
+              <label for="blue">Синий</label>
+              <input type="checkbox" name="color" id="red" checked>
+              <label for="red">Красный</label>
+              <input type="checkbox" name="color" id="pink">
+              <label for="pink">Розовый</label>
+            </fieldset>
+            <fieldset class="bluetooth">
+              <legend>Bluetooth</legend>
+              <input type="radio" name="bluetooth" value="yes"> Есть<br>
+              <input type="radio" name="bluetooth" value="no" checked> Нет<br>
+            </fieldset>
+            <button class="show" type="submit">Показать</button>
+          </form>
+        </div>
+      </div>
+      
+      <div class="section-right">
+        <div class="sort-navigation">
+          <h4>Сортировка:</h4>
+          <ul>
+            <li><a href="#">По цене</a></li>
+            <li><a href="#">По типу</a></li>
+            <li><a href="#">По популярности</a></li>
+            <li><a href="#">Arrow Up</a></li>
+            <li><a href="#">Arrow Down</a></li>
+          </ul>
+        </div>
+        <div class="gallery">
+          <div class="pic1">
+            <figure>
+              <img src="http://placehold.it/150x100" width="150" height="100" alt="pic1">
+            </figure>
+            <a href="#">Любительская селфи-палка</a>
+            <span class="price">500 руб</span>
+          </div>
+          <div class="pic2">
+            <figure>
+              <img src="http://placehold.it/150x100" width="150" height="100" alt="pic2">
+            </figure>
+            <a href="#">Профессиональная селфи-палка</a>
+            <span class="price">1500 руб</span>
+          </div>
+          <div class="pic3">
+            <figure>
+              <img src="http://placehold.it/150x100" width="150" height="100" alt="pic3">
+            </figure>
+            <a href="#">Непотопляемая селфи-палка</a>
+            <span class="price">2500 руб</span>
+          </div>
+          <div class="pic4">
+            <figure>
+              <img src="http://placehold.it/150x100" width="150" height="100" alt="pic4">
+            </figure>
+            <a href="#">Селфи-палка "Следуй за мной"</a>
+            <span class="price">4900 руб</span>
+          </div>
+        </div>
+        <div class="pagination">
+          <ul>
+            <li><a href="#">Назад</a></li>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">Вперед</a></li>
+          </ul>
+        </div>
+      </div>
+    </main>
+     <footer>
+      <div class="main-footer">
+        <div class="footer-container">
+          <div class="footer-first">
+            <a href="#" class="footer-logo">DEVICE</a><br>
+            <address class="address">г. Москва, ул. Строителей, 15</address>
+          </div>
+          <div class="footer-second">
+            <div class="footer-garanty">
+              <ul>
+                <li><a href="#">ДОСТАВКА</a></li>
+                <li><a href="#">ГАРАНТИЯ</a></li>
+                <li><a href="#">КОНТАКТЫ></a></li>
+              </ul>
+            </div>
+              <div class="footer-social">
+                <ul>
+                <li><a href="#"><span class="facebook">facebook</span></a></li>
+                <li><a href="#"><span class="facebook">instagram</span></a></li>
+                <li><a href="#"><span class="facebook">twitter</span></a></li>
+                  </ul>
+            </div>
+          </div>
+          <div class="footer-third">
+            <div class="login">
+              <ul>
+                <li><a href="#">Войти</a></li>
+                <li><a href="#">Сравнить</a></li>
+                <li><a href="#">Корзина</a></li>        
+              </ul>
+            </div>
+            <div class="phone">
+              тел.<a href="tel:84954959595">+7(495)495-95-95</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
