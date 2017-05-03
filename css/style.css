@@ -2,8 +2,8 @@ body {
   line-height: 24px;
   font-size: 14px;
   color: black;
-  font-weight: normal;
-  font-family: OpenSans Light;
+  font-weight: light;
+  font-family: OpenSans;
 }
 
 h1 {
