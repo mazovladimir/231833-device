@@ -1,0 +1,13 @@
+body {
+  line-height: 24px;
+  font-size: 14px;
+  color: black;
+  font-weight: light;
+  font-family: OpenSans;
+}
+
+h1 {
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: bold;
+}
