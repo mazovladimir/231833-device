@@ -3,11 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: DEVICE</title>
+	<link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-    <header class="header">
-      <div class="header-container">
+    <header class="main-header">
+      <div class="container">
         <div class="name">
           <h1>DEVICE</h1>
         </div>
@@ -27,7 +28,7 @@
             </li>
           </ul>
         </nav>
-        <nav class="second-navigation">
+        <nav class="second-navigation clearfix">
           <ul>
             <li>
               <a href="#">КАТАЛОГ ТОВАРОВ</a>
@@ -45,12 +46,12 @@
         </nav>
       </div>
     </header>
-    <main class="container">
+    <main class="container clearfix">
       <div class="section-one">
         <div class="logo">
-          <img src="http://placehold.it/150x100" width="150" height="100" alt="logo">
+          <img src="img/slider-1.png" width="440" height="500" alt="logo">
         </div>
-        <section>
+        <section class='about'>
           <h2>Делай селфи, как Бен Стиллер!</h2>
           <p>Самая длинная палка для селфи доступна в нашем магазине. Восемь(Восемь, Карл!) метров длиной и весом всего 5 килограмм.</p>
           <a href="#">ПОДРОБНЕЕ</a>
@@ -61,45 +62,49 @@
           </ul>
         </section>
       </div>
-      <div class="section-two">
+      <div class="section-two outline clearfix">
         <figure>
-          <img src="img/popular-1.png" width="150" height="100" alt="logo1">
+          <img src="img/popular-1.png" width="160" height="160" alt="logo1">
           <figcaption class="pic1-name">Виртуальная реальность</figcaption>
         </figure>
         <figure>
-          <img src="img/popular-2.png" width="150" height="100" alt="logo2">
+          <img src="img/popular-2.png" width="160" height="160" alt="logo2">
           <figcaption class="pic2-name">Моноподы для селфи</figcaption>
         </figure>
         <figure>
-          <img src="img/popular-3.png" width="150" height="100" alt="logo3">
+          <img src="img/popular-3.png" width="160" height="160" alt="logo3">
           <figcaption class="pic3-name">Экшн-камеры</figcaption>
         </figure>
         <figure>
-          <img src="img/popular-4.png" width="150" height="100" alt="logo4">
+          <img src="img/popular-4.png" width="160" height="160" alt="logo4">
           <figcaption class="pic4-name">Фитнес браслеты</figcaption>
         </figure>
         <figure>
-          <img src="img/popular-5.png" width="150" height="100" alt="logo5">
+          <img src="img/popular-5.png" width="160" height="160" alt="logo5">
           <figcaption class="pic5-name">Умные часы</figcaption>
         </figure>
         <figure>
-          <img src="img/poppular-6.png" width="150" height="100" alt="logo6">
+          <img src="img/poppular-6.png" width="160" height="160" alt="logo6">
           <figcaption class="pic6-name">Квадрокоптеры</figcaption>
         </figure>
       </div>
-      <div class="section-three">
-        <ul>
-          <li><a href="#">ДОСТАВКА</a></li>
-          <li><a href="#">ГАРАНТИЯ</a></li>
-          <li><a href="#">КРЕДИТ</a></li>
-        </ul>
+      <div class="section-three outline clearfix">
+        <div class="list-three">
+          <ul>
+            <li><a href="#">ДОСТАВКА</a></li>
+            <li><a href="#">ГАРАНТИЯ</a></li>
+            <li><a href="#">КРЕДИТ</a></li>
+          </ul>
+        </div>
         <section class="delivery">
-          <h2>Доставка</h2>
-          <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
-          <img src="img/delivery.png" width="150" height="100" alt="delivery-man">
+          <div class="delivery-text">
+            <h2>Доставка</h2>
+            <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
+          </div>
+          <img src="img/delivery.png" width="136" height="164" alt="delivery-man">
         </section>
       </div>
-      <div class="section-four">
+      <div class="section-four outline">
         <div class="logos">
           <figure>
             <img src="img/logo-1.png" width="150" height="100" alt="pic1">
@@ -116,34 +121,31 @@
         </div>
       </div>
       <div class="section-five">
-        <div class="about-us">
-          <div class="container-left">
-            <div class="about-description">
-              <h3>О нас</h3>
-              <p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.<br><br>Мы можем доставить ваш товар в самые отдаленные точнки России! DEVICE работает со многими транспортными компаниями:</p>
-              <ul>
-                <li>Деловые линии</li>
-                <li>Автотрейдинг</li>
-                <li>ЖелДорЭкспедиция</li>
-              </ul>
-              <a href="#">ПОДРОБНЕЕ О НАС</a>
-            </div>
-            <div class="container-right">
-              <h3>Контакты</h3>
-              <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
-              <div class="map">
-                <img src="img/map.jpg" width="150" height="100" alt="map">
-              </div>
-              <a href="#">НАПИШИТЕ НАМ</a>
-            </div>
+        <div class="container-left">
+          
+            <h3>О нас</h3>
+            <p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.<br><br>Мы можем доставить ваш товар в самые отдаленные точнки России! DEVICE работает со многими транспортными компаниями:</p>
+            <ul>
+              <li>Деловые линии</li>
+              <li>Автотрейдинг</li>
+              <li>ЖелДорЭкспедиция</li>
+            </ul>
+            <a href="#">ПОДРОБНЕЕ О НАС</a>
+         
+        </div>
+        <div class="container-right">
+          <h3>Контакты</h3>
+          <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
+          <div class="map">
+            <img src="img/map.jpg" width="150" height="100" alt="map">
           </div>
+          <a href="#">НАПИШИТЕ НАМ</a>
         </div>
       </div>
     </main>
-    <footer>
-      <div class="main-footer">
-        <div class="footer-container">
-          <div class="footer-first">
+    <footer class="main-footer">
+      <div class="container clearfix">
+          <div class="footer-first outline">
             <a href="#" class="footer-logo">DEVICE</a><br>
             <address class="address">г. Москва, ул. Строителей, 15</address>
           </div>
@@ -155,7 +157,7 @@
                 <li><a href="#">КОНТАКТЫ></a></li>
               </ul>
             </div>
-              <div class="footer-social">
+              <div class="footer-social outline">
                 <ul>
                 <li><a href="#"><span class="facebook">facebook</span></a></li>
                 <li><a href="#"><span class="facebook">instagram</span></a></li>
@@ -163,7 +165,7 @@
                   </ul>
             </div>
           </div>
-          <div class="footer-third">
+          <div class="footer-third outline">
             <div class="login">
               <ul>
                 <li><a href="#">Войти</a></li>
@@ -175,7 +177,6 @@
               тел.<a href="tel:84954959595">+7(495)495-95-95</a>
             </div>
           </div>
-        </div>
       </div>
     </footer>
   </body>

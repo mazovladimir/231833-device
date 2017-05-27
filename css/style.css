@@ -1,13 +1,220 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   line-height: 24px;
   font-size: 14px;
   color: black;
-  font-weight: light;
-  font-family: OpenSans;
+  font-weight: normal;
+  font-family: OpenSans Light;
 }
 
 h1 {
   line-height: 42px;
   font-size: 30px;
   font-weight: bold;
+}
+
+.section-left {
+  float: left;
+  width: 300px;
+  outline: 1px solid green;
+}
+
+.section-right {
+  float: right;
+  width: 760px;
+  outline: 1px solid yellow;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.main-header {
+  outline: 1px solid green;
+  margin-bottom: 64px;
+  padding: 8px;
+}
+
+.section-one .logo {
+  float: left;
+  width: 400px;
+}
+
+.main-navigation li {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.second-navigation li {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.section-one .about {
+  float: right;
+  width: 480px;
+}
+
+.section-two {
+  clear: both;
+  font-size: 0;
+}
+
+.section-two {
+  padding-top: 110px;
+  outline: 1px solid green;
+}
+
+.section-two figure {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  margin-right: 40px;
+  font-size: 14px;
+}
+
+.section-two figure:last-child {
+  margin-right: 0;
+}
+
+.section-three {
+  margin-top: 160px;
+  outline: 1px solid blue;
+}
+
+.container-left {
+  float: left;
+  width: 480px;
+}
+
+.container-right {
+  float: right;
+  width: 580px;
+}
+
+.list-three {
+  float: left;
+  width: 160px;
+  margin-right: 240px;
+}
+
+.delivery-text {
+  float: left;
+  width: 460px;
+}
+
+.delivery img {
+  float: right;
+  width: 140px;
+  margin-right: 60px;
+}
+
+.section-four {
+  clear: both;  
+  outline: 1px solid yellow;
+  display: inline-block;
+  margin-top: 100px;
+  margin-bottom: 160px;
+}
+
+.section-four figure {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.sort-navigation li {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.gallery figure{
+  margin: 0;
+}
+
+.gallery {
+  font-size: 0; 
+}
+
+.gallery .block {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 40px;
+}
+
+.gallery .block:nth-child(2n) {
+  margin-right: 0;
+}
+
+.gallery a,
+.gallery span {
+  font-size: 14px;
+}
+
+.pagination li {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.navigation li {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.container {
+  width: 1160px;
+  outline: 1px solid red;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-footer {
+  clear: both;
+  outline: 1px solid green;
+  margin-top: 49px;
+  padding-top: 60px;
+}
+
+.footer-first {
+  outline: 1px solid green;
+  float: left;
+  width: 200px;
+  margin-top: 65px;
+}
+
+.footer-second {
+  outline: 1px solid green;
+  float: left;
+  width: 440px;
+  margin-left: 160px;
+  margin-top: 70px;
+  margin-bottom: 65px;
+}
+
+.footer-garanty li {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.footer-social li {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.footer-third {
+  outline: 1px solid green;
+  float: right;
+  width: 360px;
+  margin-top: 70px;
+}
+
+.footer-third li {
+  display: inline-block;
+  vertical-align: top;
 }

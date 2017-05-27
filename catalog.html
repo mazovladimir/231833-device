@@ -3,17 +3,18 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: DEVICE</title>
+    <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
-      <div class="header-picture">
-        <img src="http://placehold.it/150x100" width="150" height="100" alt="header-logo">
-      </div>
-      <div class="name">
-        <a class="main-logo">DEVICE</a>
-      </div>
       <div class="container">
+        <div class="name">
+          <h1>DEVICE</h1>
+        </div>
+        <div class="search">
+          <span class="find">Поиск по сайту</span>
+        </div>
         <nav class="main-navigation">
           <ul>
             <li>
@@ -27,7 +28,7 @@
             </li>
           </ul>
         </nav>
-        <nav class="second-navigation">
+        <nav class="second-navigation clearfix">
           <ul>
             <li>
               <a href="#">КАТАЛОГ ТОВАРОВ</a>
@@ -55,7 +56,7 @@
         </ul>
       </div>
       
-      <div class="section-left">
+      <div class="section-left outline">
         <div class="filter-name">
            <h4>Фильтр:</h4>
         </div>
@@ -88,7 +89,7 @@
         </div>
       </div>
       
-      <div class="section-right">
+      <div class="section-right outline">
         <div class="sort-navigation">
           <h4>Сортировка:</h4>
           <ul>
@@ -100,30 +101,30 @@
           </ul>
         </div>
         <div class="gallery">
-          <div class="pic1">
+          <div class="pic1 block">
             <figure>
-              <img src="img/item-1.jpg" width="150" height="100" alt="pic1">
+              <img src="img/item-1.jpg" width="360" height="380" alt="pic1">
             </figure>
             <a href="#">Любительская селфи-палка</a>
             <span class="price">500 руб</span>
           </div>
-          <div class="pic2">
+          <div class="pic2 block">
             <figure>
-              <img src="img/item-2.jpg" width="150" height="100" alt="pic2">
+              <img src="img/item-2.jpg" width="360" height="380" alt="pic2">
             </figure>
             <a href="#">Профессиональная селфи-палка</a>
             <span class="price">1500 руб</span>
           </div>
-          <div class="pic3">
+          <div class="pic3 block">
             <figure>
-              <img src="img/item-3.jpg" width="150" height="100" alt="pic3">
+              <img src="img/item-3.jpg" width="360" height="380" alt="pic3">
             </figure>
             <a href="#">Непотопляемая селфи-палка</a>
             <span class="price">2500 руб</span>
           </div>
-          <div class="pic4">
+          <div class="pic4 block">
             <figure>
-              <img src="img/item-4.jpg" width="150" height="100" alt="pic4">
+              <img src="img/item-4.jpg" width="360" height="380" alt="pic4">
             </figure>
             <a href="#">Селфи-палка "Следуй за мной"</a>
             <span class="price">4900 руб</span>
@@ -140,10 +141,9 @@
         </div>
       </div>
     </main>
-     <footer>
-      <div class="main-footer">
-        <div class="footer-container">
-          <div class="footer-first">
+     <footer class="main-footer">
+      <div class="container clearfix">
+          <div class="footer-first outline">
             <a href="#" class="footer-logo">DEVICE</a><br>
             <address class="address">г. Москва, ул. Строителей, 15</address>
           </div>
@@ -155,7 +155,7 @@
                 <li><a href="#">КОНТАКТЫ></a></li>
               </ul>
             </div>
-              <div class="footer-social">
+              <div class="footer-social outline">
                 <ul>
                 <li><a href="#"><span class="facebook">facebook</span></a></li>
                 <li><a href="#"><span class="facebook">instagram</span></a></li>
@@ -163,7 +163,7 @@
                   </ul>
             </div>
           </div>
-          <div class="footer-third">
+          <div class="footer-third outline">
             <div class="login">
               <ul>
                 <li><a href="#">Войти</a></li>
@@ -175,7 +175,6 @@
               тел.<a href="tel:84954959595">+7(495)495-95-95</a>
             </div>
           </div>
-        </div>
       </div>
     </footer>
   </body>
