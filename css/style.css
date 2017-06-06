@@ -81,7 +81,10 @@ h1 {
 
 .main-header {
   outline: 1px solid green;
-  padding: 8px;
+}
+
+.container-header {
+  padding-bottom: 8px;
 }
 
 .slider1 .logo1 {
@@ -273,8 +276,6 @@ h1 {
 .main-footer {
   clear: both;
   outline: 1px solid green;
-  
-  
 }
 
 .footer-first {
